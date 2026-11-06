@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', Sans-Serif;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPe-oBpL5FUMXF5fjDsYRoPIQEK7NMicHpkI1kaF2USw&s=10');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#answers-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.answer-btn{
+    width: 48%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.hide{
+    display: none;
+}
+.correct{
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.wrong{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#start-btn{
+    padding: 10px 70px;
+    border-radius: 10px;
+    margin-left: 45px;
+    font-size:17px ;
+}
+button{
+    box-shadow: 7px 7px 7px black;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+#question-text{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
